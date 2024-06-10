@@ -639,6 +639,10 @@ video {
   width: 15rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .min-w-\[10rem\] {
   min-width: 10rem;
 }
@@ -765,6 +769,14 @@ video {
   font-size: 3rem;
 }
 
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+
 .capitalize {
   text-transform: capitalize;
 }
@@ -800,6 +812,11 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:mx-\[7rem\] {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -808,7 +825,23 @@ video {
     display: none;
   }
 
+  .sm\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .sm\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .sm\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:text-\[3rem\] {
+    font-size: 3rem;
   }
 }
