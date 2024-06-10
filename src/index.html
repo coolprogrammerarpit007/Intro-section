@@ -22,7 +22,7 @@
            <img src="./images/logo.svg" alt="logo">
           </div>
           <!-- Nav Links -->
-           <ul class="links capitalize text-[hsl(0,0%,41%)] flex items-center gap-[2rem]">
+           <ul class="links capitalize text-[hsl(0,0%,41%)] sm:flex items-center gap-[2rem] hidden">
             <div class="dropdown relative inline-block dropdown-block">
               <!-- dropdown item -->
               <div class="dropdown-item flex items-center gap-4">
@@ -76,21 +76,28 @@
             <div class="flex items-center gap-4">
               <li class="link">careers 
               </li>
-                <img src="./images/icon-arrow-up.svg" alt="up-arrow">
+                
             </div>
             <div class="flex items-center gap-4">
               <li class="link">about 
               </li>
-                <img src="./images/icon-arrow-up.svg" alt="up-arrow">
+                
             </div>
            </ul>
         </div>
 
         <!-- Navigation Right Section -->
-         <div class="right-section flex gap-[2rem] items-center capitalize text-[hsl(0,0%,41%)] ">
+         <div class="right-section sm:flex gap-[2rem] items-center capitalize text-[hsl(0,0%,41%)] hidden ">
             <a href="#" class="login">login</a>
             <button class="btn capitalize border-2 border-solid border-[hsl(0,0%,41%)] p-2 px-4 rounded-lg hover:bg-[hsl(0,0%,41%)] hover:text-black">register</button>
          </div>
+
+         <!-- Menu Btn -->
+          <div class="menu-btn sm:hidden flex">
+            <img src="./images/icon-menu.svg" alt="menu-btn">
+          </div>
+
+          <!-- Sidebar Component -->
     </div>
   </nav>
 
