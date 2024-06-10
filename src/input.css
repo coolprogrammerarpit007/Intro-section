@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .seagreen{
+        background-color: seagreen;
+    }
+    .grey{
+        background-color: hsl(0, 0%, 41%);
+    }
+    .white{
+        background-color: hsl(0, 0%, 98%);
+    }
+    .black{
+        background-color: hsl(0, 0%, 8%);
+    }
+    .epiloge{
+        font-family: "Epilogue", sans-serif;;
+    }
+    border-grey{
+        border: 4px solid hsl(0, 0%, 41%);
+    }
+}
