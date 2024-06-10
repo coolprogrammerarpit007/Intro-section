@@ -21,7 +21,7 @@
     .border-grey{
         border: 4px solid hsl(0, 0%, 41%);
     }
-    .border-black{
+    /* .border-black{
         border:2px solid black
-    }
+    } */
 }

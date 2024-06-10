@@ -566,6 +566,10 @@ video {
   font-family: "Epilogue", sans-serif;
 }
 
+/* .border-black{
+        border:2px solid black
+    } */
+
 .absolute {
   position: absolute;
 }
@@ -746,10 +750,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:border-black:hover{
-  border:2px solid black;
+.hover\:border-black:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity))
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .hover\:bg-white:hover {
@@ -757,8 +760,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.hover\:p-4:hover {
-  padding: 1rem;
+.hover\:bg-\[hsl\(0\2c 0\%\2c 41\%\)\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 41% / var(--tw-bg-opacity));
 }
 
 .hover\:text-black:hover {
