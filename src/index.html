@@ -98,6 +98,83 @@
           </div>
 
           <!-- Sidebar Component -->
+           <div class="sidebar flex sm:hidden flex-col justify-start gap-[2rem] items-center bg-white p-4 h-[100vh] z-10 w-[10rem]">
+
+              <!-- Close Menu Btn -->
+              <div class="close-btn">
+                <img src="./images/icon-close-menu.svg" alt="close btn">
+              </div>
+
+              <!-- Nav Links -->
+              <ul class="links capitalize text-[hsl(0,0%,41%)] sm:flex flex-col items-start justify-center gap-[2rem]">
+                <div class="dropdown relative inline-block">
+                  <!-- dropdown item -->
+                  <div class="dropdown-item flex items-center gap-4">
+                    <li class="link">features 
+                    </li>
+                    <img src="./images/icon-arrow-up.svg" alt="up-arrow">
+                  </div>
+    
+                  <!-- dropdown content -->
+                   <div class="dropdown-content absolute bg-[#f1f1f1] min-w-[10rem] z-10 shadow-[0px 8px 16px 0px rgba(0,0,0,0.2)] p-4 rounded-xl capitalize bg-white hidden" id="dropdown-content-1">
+                      <div class="dropdown-item flex items-center gap-2">
+                        <img src="./images/icon-todo.svg" alt="todo">
+                        <a href="#">todo list</a>
+                      </div>
+                      <div class="dropdown-item flex items-center gap-2">
+                        <img src="./images/icon-calendar.svg" alt="calender">
+                        <a href="#">calender</a>
+                      </div>
+                      <div class="dropdown-item flex items-center gap-2">
+                        <img src="./images/icon-reminders.svg" alt="remiander">
+                        <a href="#">remianders</a>
+                      </div>
+                      <div class="dropdown-item flex items-center gap-2">
+                        <img src="./images/icon-planning.svg" alt="todo">
+                        <a href="#">planning</a>
+                      </div>
+                   </div>
+                </div>
+                <div class="dropdown relative inline-block">
+                  <!-- dropdown item -->
+                  <div class="dropdown-item flex items-center gap-4">
+                    <li class="link">company 
+                    </li>
+                      <img src="./images/icon-arrow-up.svg" alt="up-arrow">
+                  </div>
+    
+                  <!-- dropdown content -->
+                  <div class="dropdown-content absolute bg-[#f1f1f1] min-w-[8rem] z-10 shadow-[0px 8px 16px 0px rgba(0,0,0,0.2)] p-6 rounded-xl bg-white hidden" id="dropdown-content-2">
+                    <div class="dropdown-item">
+                      History
+                    </div>
+                    <div class="dropdown-item">
+                      Our Team
+                    </div>
+                    <div class="dropdown-item">
+                      Blog
+                    </div>
+                 </div>
+                   
+                </div>
+                <div class="flex items-center gap-4">
+                  <li class="link">careers 
+                  </li>
+                    
+                </div>
+                <div class="flex items-center gap-4">
+                  <li class="link">about 
+                  </li>
+                    
+                </div>
+               </ul>
+
+               <!-- User Login Btns -->
+               <div class="right-section sm:flex flex-col gap-[2rem] items-start justify-center capitalize text-[hsl(0,0%,41%)]">
+                <a href="#" class="login">login</a>
+                <button class="btn capitalize border-2 border-solid border-[hsl(0,0%,41%)] p-2 px-4 rounded-lg hover:bg-[hsl(0,0%,41%)] hover:text-black">register</button>
+             </div>
+           </div>
     </div>
   </nav>
 
