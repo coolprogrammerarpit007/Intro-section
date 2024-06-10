@@ -42,9 +42,10 @@ dropdownMobile.forEach((menu,i)=>{
 menuBtn.addEventListener(`click`,function(e){
     menuBtn.classList.add(`hidden`);
     sidebar.classList.remove(`hidden`);
-})
-
-closeBtn.addEventListener(`click`,function(e){
-    menuBtn.classList.remove(`hidden`);
-    sidebar.classList.add(`hidden`);
+    
+    })
+    
+    closeBtn.addEventListener(`click`,function(e){
+        menuBtn.classList.remove(`hidden`);
+        sidebar.classList.add(`hidden`); 
 })
