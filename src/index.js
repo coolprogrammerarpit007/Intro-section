@@ -48,3 +48,5 @@ menuBtn.addEventListener(`click`,function(e){
         menuBtn.classList.remove(`hidden`);
         sidebar.classList.add(`hidden`); 
 })
+
+// log
