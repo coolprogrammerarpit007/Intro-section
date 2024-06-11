@@ -7,15 +7,11 @@ const sidebar = document.querySelector(`.sidebar`);
 // Adding event listener to the dropdown 
 
 dropdown.forEach((menu,i)=>{
-    menu.addEventListener(`mouseover`,(e)=>{
-        document.getElementById(`dropdown-content-${i+1}`).classList.remove(`hidden`);
+    menu.addEventListener(`click`,(e)=>{
+        document.getElementById(`dropdown-content-${i+1}`).classList.toggle(`hidden`);
     })
 })
-dropdown.forEach((menu,i)=>{
-    menu.addEventListener(`mouseleave`,(e)=>{
-        document.getElementById(`dropdown-content-${i+1}`).classList.add(`hidden`);
-    })
-})
+
 
 
 // Adding dropdown to the mobile  view
@@ -26,15 +22,11 @@ const dropdownMobile = document.querySelectorAll(`.dropdown-mobile`);
 // Event to the mobile
 
 dropdownMobile.forEach((menu,i)=>{
-    menu.addEventListener(`mouseover`,(e)=>{
-        document.getElementById(`dropdown-content-${i+3}`).classList.remove(`hidden`);
+    menu.addEventListener(`click`,(e)=>{
+        document.getElementById(`dropdown-content-${i+3}`).classList.toggle(`hidden`);
     })
 })
-dropdownMobile.forEach((menu,i)=>{
-    menu.addEventListener(`mouseleave`,(e)=>{
-        document.getElementById(`dropdown-content-${i+3}`).classList.add(`hidden`);
-    })
-})
+
 
 
 // Adding event listener to the menu btn
@@ -49,4 +41,3 @@ menuBtn.addEventListener(`click`,function(e){
         sidebar.classList.add(`hidden`); 
 })
 
-// log
